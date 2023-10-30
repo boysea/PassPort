@@ -1,6 +1,10 @@
 ### 原始仓库来源
 https://sourceforge.net/projects/pjs-passport/
 
+使用Visual Studio调试时需要在Windows的功能启用.net framework 3.5，在Visual Studio安装时安装.net framrwork 3.5以上版本SDK与目标包
+打开项目后在项目上右击属性选择C/C++在代码生成页面将运行库调整为多线程DLL(/MD)
+打包需要安装WiX，3.X版本可以正常打包msi，打包前需要使用Release生成一次
+
 RELEASE NOTES
 ==============
 ==============
