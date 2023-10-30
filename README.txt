@@ -1,6 +1,14 @@
+### 原始仓库来源
+https://sourceforge.net/projects/pjs-passport/
+
 RELEASE NOTES
 ==============
 ==============
+
+Release 1.0.2 - 2023-10-30
+===========================
+修复添加端口时只能添加udp或tcp的问题，现在可以同时转发udp与tcp
+
 
 Release 1.0.1 - 2008-Nov-08
 ===========================
