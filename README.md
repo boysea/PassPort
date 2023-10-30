@@ -1,3 +1,6 @@
+# A Local Port Forwarding Program,Support Tcp And Udp
+# 一个本地端口转发程序，同时支持tcp与udp
+
 ### 原始仓库来源
 https://sourceforge.net/projects/pjs-passport/
 
