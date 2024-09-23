@@ -113,10 +113,7 @@ System::Void ConfigPage::CopyPortsToList(System::Object^  sender, System::EventA
 	String ^src = fw->SourcePartDisplayLine();
 	int found = -1;
 	if ((found = fwds->FindString(src)) >= 0) {
-		ForwardInfo^ fi = gcnew ForwardInfo(static_cast<String^>(fwds->Items[found]));
-		if (fi->GetProto() == fw->GetProto()) {
-			fwds->Items->RemoveAt(found);
-		}
+		fwds->Items->RemoveAt(found);
 	}
 	fwds->Items->Add(fw->ToDisplayLine());	
 	SourceHost->Text = "";
