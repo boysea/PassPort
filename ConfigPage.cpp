@@ -122,7 +122,7 @@ System::Void ConfigPage::CopyPortsToList(System::Object^  sender, System::EventA
 			if ((found2 = fwds->FindString(src, found)) >= 0) {
 				ForwardInfo^ fi2 = gcnew ForwardInfo(static_cast<String^>(fwds->Items[found2]));
 				if (fi2->GetProto() == fw->GetProto()) {
-					fwds->Items->RemoveAt(found);
+					fwds->Items->RemoveAt(found2);
 				}
 			}
 		}
